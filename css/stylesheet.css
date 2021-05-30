@@ -1,0 +1,99 @@
+body {
+	background-image: url(images/lupulofondo.jpg);
+	background-size: cover;
+	
+	
+}
+main h1 {
+  color:  white ;
+	font-family:'Roboto Slab', serif;
+	font-size: 350%;
+	font-weight: bold;
+	text-align: center;
+	margin: 5% 10%;
+  margin-bottom: 0px;
+  
+	
+}
+.clearfix{ 
+clear: both; }
+nav { 
+	font-family:'Roboto Slab', serif;
+	font-size: 120%;
+ 	margin:15px;
+ }
+
+
+div.textbeer{
+  font-family:'Roboto Slab', serif;
+  color: white;
+  padding: 0px;
+  margin-right: 10%;
+  text-align:right;
+  font-size: 200%;
+  box-sizing: content-box;
+} 	
+ 
+ 
+.btn-blue {
+  font-family:'Roboto Slab', serif;
+  background-color: #fad7a0;
+  color: green;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 40%;
+  padding: 16px 68px;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.btn-blue:hover {
+  background-color: green;
+  color: #fad7a0;
+}
+.navbar-brand {
+  padding: 0px;
+}
+
+.nosotros {
+  opacity: 75%;
+  background-color: beige;
+  margin: 5% 10%;
+  padding: 10px;
+  font-family:'Roboto Slab', serif;
+  font-size: 25px;
+  font-weight: @600;
+  text-align: justify;
+  align-items: center;
+} 
+
+.register{
+  background-color: yellow;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.enter{
+  background-color: green;
+  color: beige;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,95 @@
+body {
+  background-image: url(images/fondoshop.jpg);
+  }
+
+nav { 
+  font-family:'Roboto Slab', serif;
+  font-size: 120%;
+  margin:15px;
+
+  }
+div.cards {
+ justify-content: center;
+}
+
+.card-white {
+ 
+
+  background-color:beige; 
+
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px;
+  margin-right: 5%;
+  flex-grow: 1;
+  float:right;
+  ;
+  
+
+}
+
+.card-white img {
+  margin: 0% 5%;
+  width: 90%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  float: center;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.btn-blue {
+  font-family:'Roboto Slab', serif;
+  background-color: #fad7a0;
+  color: green;
+  align-items: right;
+  justify-content: center;
+  margin: 2% 3%;
+  padding: 16px 68px;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.btn-blue:hover {
+  background-color: green;
+  color: #fad7a0;
+}
+
+.register{
+  background-color: yellow;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.enter{
+  background-color: green;
+  color: beige;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.clearfix{ 
+  clear: both; 
+}

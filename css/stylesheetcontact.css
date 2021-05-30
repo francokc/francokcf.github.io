@@ -1,0 +1,93 @@
+body {
+	background-image: url(images/fondoshop.jpg);
+  
+	}
+
+
+nav { 
+	font-family:'Roboto Slab', serif;
+	font-size: 120%;
+ 	margin:15px;
+
+  }
+
+form {
+  align-items: center;
+  margin: 25%;
+  padding: 10%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.was-validated{
+  background-color: beige;
+   margin: 25%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+h1 {
+  background-color: beige;
+  margin:2% 25%;
+  text-align: center;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+
+}
+
+p{
+  background-color: beige;
+  text-align: center;
+  margin: 25%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+}
+
+
+
+h2 {
+  background-color: beige;
+  margin: 25%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%; 
+  text-align:center;
+}
+
+.clearfix{ 
+  clear: both; 
+}  
+
+.register{
+  background-color: yellow;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.enter{
+  background-color: green;
+  color: beige;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.googleform{
+  margin:0% 20%;
+  padding: 5%;
+}
