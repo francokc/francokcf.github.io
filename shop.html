@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="shop.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap" rel="stylesheet.css">
+   
+
+    <title>FROTH-Craft Beer brewing.Co</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+          <img src=images/loguito.webp alt="" width="70" height="64">
+        </a>
+     <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> FROTH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ourbeers.html">Our beers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contact</a>
+            </li>
+            <!-- boton log in-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Log in
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                  <a class="register" href="register.html"> Register</a>
+                  <a class="enter" href=""> Enter</a>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- frase main-->
+    
+    <main>
+      <div class="cards">
+
+        <!-- ipa card -->
+        <div class="card-white">
+          <img src="images/ipashop.jpg" alt="">
+          <a href="#" target="_blank" class="btn-blue">GET</a>
+          <h3><b>India Pale Ale</b></h3>
+          <p>
+           $215 u– $4.475 x24<br>American copper ale, floral,<br> with herbaceous and citrus touches.<br> We seek the balance between the body and the hops.  
+          </p>
+        </div>
+
+        <!-- scotch card -->
+        <div class="card-white">
+          <img src="images/rojashop.jpg" alt="">
+          <a href="#" target="_blank" class="btn-blue">GET</a>
+          <h3><b>Scotch Ale</b></h3>
+          <p>$190 u– $4.200 x24<br>Scottish red ale type beer,<br>very sumptuous. The combination<br>of 5 varieties of malt gives it a coppery color<br>dark with smoky and caramel notes.</p>
+        </div>
+
+        <!-- Porter card -->
+        <div class="card-white">
+         <img src="images/portershop.jpg" alt="">
+          <a href="#" target="_blank" class="btn-blue">GET</a>
+          <h3><b>Porter</b></h3>
+          <p>$190 u– $4.200 x24<br>Full and creamy body<br>Roasted malts give notes of coffee<br>and chocolate, and the caramelized ones provide<br>nutty and caramel aromas.
+          </p>
+        </div>
+      </div>
+    </main>
+    
+    <div class="clearfix"></div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>

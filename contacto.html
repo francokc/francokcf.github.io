@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="stylesheetcontact.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap" rel="stylesheet.css">
+   
+
+    <title>FROTH-Craft Beer brewing.Co</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+          <img src=images/loguito.webp alt="" width="70" height="64">
+        </a>
+     <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> FROTH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ourbeers.html">Our beers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contact</a>
+            </li>
+            <!-- boton log in-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Log in
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                  <a class="register" href="register.html"> Register</a>
+                  <a class="enter" href=""> Enter</a>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- DATOS DE CONTACTO -->
+    <div class="datoscon">
+      <b><u> <h1> Contact information</h1> </u></b>
+      <p> <u>Address</u>   48255 Geo Mount<br>  <u> City </u> East Lera<br>
+        <u>State</u>   Bilzen<br>  <u>Zip Code</u>  56192-9265 <br> <u> Phone </u> 430-846-6524 x603
+      </p>
+    </div>
+  
+<!-- AREA TEXTO-->
+    <div>
+      <b><u><h2> Please choice your reason and contact us</h2></u></b>
+      <form class="was-validated">
+        <div class="mb-3">
+          <label for="validationTextarea" class="form-label">Please enter a message in the textarea...</label>
+          <textarea class="form-control is-invalid" id="validationTextarea" required></textarea>
+          <div class="invalid-feedback">
+        
+          </div>
+        </div>
+
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+          <label class="form-check-label" for="validationFormCheck1">receive a response to the email indicated in the purchase</label>
+          <div class="invalid-feedback"> invalid </div>
+        </div>
+
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+          <label class="form-check-label" for="validationFormCheck2">e-mail</label>
+        </div>
+        <div class="form-check mb-3">
+          <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+          <label class="form-check-label" for="validationFormCheck3">user</label>
+          <div class="invalid-feedback"> invalid  </div>
+        </div>
+
+        <div class="mb-3">
+          <select class="form-select" required aria-label="select example">
+            <option value="">Motivo</option>
+            <option value="1">Sales</option>
+            <option value="2">Post</option>
+            <option value="3">Other</option>
+          </select>
+          <div class="invalid-feedback"></div>
+        </div>
+
+        <div class="mb-3">
+          <input type="file" class="form-control" aria-label="file example" required>
+          <div class="invalid-feedback"> invalid form file </div>
+        </div>
+
+        <div class="mb-3">
+          <button class="btn btn-primary" type="submit" disabled>Submit</button>
+        </div>
+      </form>
+    </div>
+    
+   
+    <div class="clearfix"></div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
